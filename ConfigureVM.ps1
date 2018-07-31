@@ -1,0 +1,1 @@
+Out-File -FilePath ".\rebooted.txt" -Append -InputObject "$((Get-Date).ToString('hh:mm:ss')):   Rebooting now..."
